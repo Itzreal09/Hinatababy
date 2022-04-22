@@ -85,44 +85,46 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
     ┗► *{}* ◄┛
 
-I Am *Prince Vegeta* Add 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩 𝐈 𝐖𝐢𝐥𝐥 𝐃𝐞𝐬𝐭𝐫𝐨𝐲 𝐄𝐯𝐢𝐥𝐬 𝐖𝐢𝐭𝐡 𝐌𝐲 Powers...\n
-*JOIN OFFICIAL* -
-[CHANNEL](t.me/pegasusUpdates) - [SUPPORT](t.me/pegasusSupportChat)\n
+Kon'nichiwa *hinata hyuga* I've got a lot of abilities to help you...\n
+*JOIN OUR* -
+[UPDATE CHANNEL](t.me/sinxupdates) - [SUPPORTCHAT](t.me/SinXsupport)\n
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-                            text="☑ ᴀᴅᴅ ᴠᴇɢᴇᴛᴀ ☑",
-                            url="t.me/VegetaRobot?startgroup=true"),
+                            text="summon me",
+                            url="t.me/hinataxrobot?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="🔄 ɪɴʟɪɴᴇ", switch_inline_query_current_chat=""),
-                       InlineKeyboardButton(text="🔒 ᴄʟᴏsᴇ", callback_data="unbanb_del"),
+                       InlineKeyboardButton(text="stats", callback_data="unbanb_del"),
                     ],
                    [
-                       InlineKeyboardButton(text="🔐 ʜᴇʟᴘ", callback_data="help_back"),
-                       InlineKeyboardButton(text="💕 ᴀʙᴏᴜᴛ", callback_data="vegeta_"
+                       InlineKeyboardButton(text="help and commands ?", callback_data="help_back"),
+                       InlineKeyboardButton(text="about me", callback_data="vegeta_"
          ),
     ],
 ] 
 
 HELP_STRINGS = """
-ʜᴇʟʟᴏ ᴛʜᴇʀᴇ! 
+Hi I'm hinata hyuga! 
 - /donate | *ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!*
 - /settings | *BOT PM:  ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
 ʜᴇʀᴇ ᴛʜᴇ ʟɪsᴛ ᴄᴏᴍᴍᴇɴᴛs  :*
 """
 
 HELP_MSG = "Click the button below to get help manu in your pm."
-DONATE_STRING = """*don't need donate I'm free for every one add your group's this my donate🙂*"""
-HELP_IMG= "https://telegra.ph/file/9d2c6e3b28afe7619856e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/1cbafa58dda18528f9e0c.mp4"
+DONATE_STRING = """*don't need donate I'm free for every one add me to your chats that's my donation lmao*"""
+HELP_IMG= "https://telegra.ph/file/eb80891194931fb4a3a0e.jpg"
+GROUPSTART_IMG= "https://telegra.ph/file/99aa4847e45c62fe175f8.jpg"
 
-VEGETA_IMG = ( "https://telegra.ph//file/a47f16c936dbbd4165399.jpg",
-               "https://telegra.ph//file/5026650d5e3f0b83c6d29.jpg",
-               "https://telegra.ph/file/561fa547f3c4940c95ddf.jpg",)       
+HINATA_IMG = ( "https://telegra.ph/file/1876f6e69b6391e45cb10.jpg",
+               "https://telegra.ph/file/c21c025a511d9cc3e33e4.jpg",
+               "https://telegra.ph/file/e87ae74f5a43a6259e531.jpg",
+               "https://telegra.ph/file/eb80891194931fb4a3a0e.jpg",
+               "https://telegra.ph/file/99aa4847e45c62fe175f8.jpg",
+               "https://telegra.ph/file/f8ef1caa56a6a94b3cc38.jpg",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -225,7 +227,7 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             update.effective_message.reply_photo(
-               random.choice(VEGETA_IMG),PM_START_TEXT.format(first_name),
+               random.choice(HINATA_IMG),PM_START_TEXT.format(first_name),
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
@@ -233,7 +235,7 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_animation(
-            GROUPSTART_IMG, caption= "*hello!\n ┗► {} ◄┛,*\n*Super Saiyan here*\n*Power lavel time* : {} ".format(
+            GROUPSTART_IMG, caption= "*hello!\n ┗► {} ◄┛,*\n*I'm Hinata hyuga*\n*Haven't slept since* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
