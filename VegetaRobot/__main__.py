@@ -85,9 +85,9 @@ def get_readable_time(seconds: int) -> str:
 PM_START_TEXT = """
     ┗► *{}* ◄┛
 
-Kon'nichiwa *hinata hyuga* I've got a lot of abilities to help you...\n
+Kon'nichiwa *Nezuko Slayer* I've got a lot of abilities to help you...\n
 *JOIN OUR* -
-[UPDATE CHANNEL](t.me/sinxupdates) - [SUPPORTCHAT](t.me/SinXsupport)\n
+[UPDATE CHANNEL](t.me/sinxupdates) - [SUPPORTCHAT](https://t.me/NezukoKamadoSupport)\n
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
 """
 
@@ -95,7 +95,7 @@ buttons = [
     [
         InlineKeyboardButton(
                             text="summon me",
-                            url="t.me/hinataxrobot?startgroup=true"),
+                            url="t.me/NezukoChan_Robot?startgroup=true"),
                     ],
                      [
                        InlineKeyboardButton(text="stats", callback_data="unbanb_del"),
@@ -108,7 +108,7 @@ buttons = [
 ] 
 
 HELP_STRINGS = """
-Hi I'm hinata hyuga! 
+Hi I'm Nezuko Slayer! 
 - /donate | *ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏɴ ʜᴏᴡ ᴛᴏ ᴅᴏɴᴀᴛᴇ!*
 - /settings | *BOT PM:  ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜʀ sᴇᴛᴛɪɴɢs ғᴏʀ ᴀʟʟ sᴜᴘᴘᴏʀᴛᴇᴅ ᴍᴏᴅᴜʟᴇs.
 ʜᴇʀᴇ ᴛʜᴇ ʟɪsᴛ ᴄᴏᴍᴍᴇɴᴛs  :*
@@ -116,15 +116,15 @@ Hi I'm hinata hyuga!
 
 HELP_MSG = "Click the button below to get help manu in your pm."
 DONATE_STRING = """*don't need donate I'm free for every one add me to your chats that's my donation lmao*"""
-HELP_IMG= "https://telegra.ph/file/eb80891194931fb4a3a0e.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/99aa4847e45c62fe175f8.jpg"
+HELP_IMG= "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg"
+GROUPSTART_IMG= "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg"
 
-HINATA_IMG = ( "https://telegra.ph/file/1876f6e69b6391e45cb10.jpg",
-               "https://telegra.ph/file/c21c025a511d9cc3e33e4.jpg",
-               "https://telegra.ph/file/e87ae74f5a43a6259e531.jpg",
-               "https://telegra.ph/file/eb80891194931fb4a3a0e.jpg",
-               "https://telegra.ph/file/99aa4847e45c62fe175f8.jpg",
-               "https://telegra.ph/file/f8ef1caa56a6a94b3cc38.jpg",)       
+HINATA_IMG = ( "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg",
+               "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg",
+               "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg",
+               "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg",
+               "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg",
+               "https://telegra.ph/file/c35af411de3c2dcef9fda.jpg",)       
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -448,12 +448,12 @@ def vegeta_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="t.me/Vegetasupport"),
-                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/vegetaupdates"),
+                    InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url="https://t.me/NezukoKamadoSupport"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url="https://t.me/sinxupdates"),
                  ],
                  [
-                       InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url="t.me/XForceNetwork"),
-                       InlineKeyboardButton(text="ʟᴏɢs", url="t.me/VegetaLogs"),
+                       InlineKeyboardButton(text="ɴᴇᴛᴡᴏʀᴋ", url="#"),
+                       InlineKeyboardButton(text="ʟᴏɢs", url="#"),
                    
                    ],
                     [
