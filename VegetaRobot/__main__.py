@@ -102,7 +102,7 @@ buttons = [
                     ],
                    [
                        InlineKeyboardButton(text="help and commands ?", callback_data="help_back"),
-                       InlineKeyboardButton(text="about me", callback_data="vegeta_"
+                       InlineKeyboardButton(text="about me", callback_data="#"
          ),
     ],
 ] 
