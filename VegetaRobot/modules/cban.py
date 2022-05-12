@@ -43,8 +43,8 @@ from VegetaRobot.modules.log_channel import gloggable, loggable
 from VegetaRobot.modules.helper_funcs.anonymous import user_admin, AdminPerms
 
 
-UNBAN_IMG= "https://telegra.ph/file/0ac714f6c537a2570cfd3.mp4"
-BAN_IMG= "https://telegra.ph/file/35ae9ea0ae57d53b98c0f.mp4"
+UNBAN_IMG= "#"
+BAN_IMG= "#"
 
 @run_async
 @connection_status
