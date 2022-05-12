@@ -83,9 +83,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-    ┗► *{}* ◄┛
 
-Kon'nichiwa *Nezuko Slayer* I've got a lot of abilities to help you...\n
+Kon'nichiwa {} I've got a lot of abilities to help you...\n
 *JOIN OUR* -
 [UPDATE CHANNEL](t.me/sinxupdates) - [SUPPORTCHAT](https://t.me/NezukoKamadoSupport)\n
 ──『*ᴛʜᴀɴᴋs  ғᴏʀ  ᴜsɪɴɢ*』
@@ -98,7 +97,7 @@ buttons = [
                             url="t.me/NezukoChan_Robot?startgroup=true"),
                     ],
                      [
-                       InlineKeyboardButton(text="stats", callback_data="unbanb_del"),
+                       InlineKeyboardButton(text="Off topic", url="https://t.me/Anime_residence"),
                     ],
                    [
                        InlineKeyboardButton(text="help and commands ?", callback_data="help_back"),
