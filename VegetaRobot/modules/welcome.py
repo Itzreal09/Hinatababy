@@ -37,8 +37,8 @@ from telegram.ext import (
 )
 from telegram.utils.helpers import escape_markdown, mention_html, mention_markdown
 
-OWNER_IMG= "https://telegra.ph/file/c05d10b9508e92e9560ec.jpg"
-VEGETA_ADD_IMG="https://telegra.ph/file/a8f7994a0722515648e15.jpg"
+OWNER_IMG= "#"
+VEGETA_ADD_IMG="#"
 
 VALID_WELCOME_FORMATTERS = [
     "first",
@@ -233,8 +233,8 @@ def new_member(update: Update, context: CallbackContext):
                   reply_markup=InlineKeyboardMarkup(
                 [
                     [
-       InlineKeyboardButton(text="👥Support", url=f"t.me/{SUPPORT_CHAT}"),
-       InlineKeyboardButton(text="📢Updates", url=f"t.me/{UPDATES_CHANNEL}"),
+       InlineKeyboardButton(text="👥Support", url=f"t.me/NezukoKamadoSupport"),
+       InlineKeyboardButton(text="📢Updates", url=f"t.me/sinxupdates"),
                     ]
                 ]
             ),
