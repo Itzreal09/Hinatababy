@@ -11,7 +11,7 @@ from telethon import __version__ as telever
 from VegetaRobot import dispatcher, SUPPORT_CHAT, UPDATES_CHANNEL
 from VegetaRobot.modules.disable import DisableAbleCommandHandler
 
-INFO_IMG = "https://telegra.ph/file/7ef6a2f2b722d371d5b79.mp4"
+INFO_IMG = "#"
 
 
 #sleep how many times after each edit in 'hack' 
